@@ -21,7 +21,7 @@ class MovieItem extends React.Component {
           <img
             className="card__img"
             src={getAddress()}
-            alt=""
+            alt="No Poster"
           />
         </div>
         <div className="card-body">
@@ -38,7 +38,7 @@ class MovieItem extends React.Component {
                     });
                     removeMovieFromWillWatch(movie)
                   }}>
-                  <img className="btn-img" src="img/heartbreak.svg" alt="Delete from Favourite"></img>
+                  <img className="btn-img" src="img/heartbreak.svg" alt="Remove from Favourite"></img>
                 </button>) : (<button type='button'
                   className="btn btn-primary"
                   onClick={() => {
@@ -47,11 +47,11 @@ class MovieItem extends React.Component {
                     });
                     addMovieToWillWatch(movie)
                   }}>
-                  <img className="btn-img" src="img/heart.svg" alt="Add from Favourite"></img>
+                  <img className="btn-img" src="img/heart.svg" alt="Add to Favourite"></img>
 
                 </button>)}
               <button type="button" className="btn btn-secondary" onClick={removeMovie.bind(null, movie)}>
-                <img className="btn-img" src="img/bin.svg" alt="Add from Favourite"></img>
+                <img className="btn-img" src="img/bin.svg" alt="Delete"></img>
               </button>
             </div>
 
