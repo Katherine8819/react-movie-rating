@@ -12,7 +12,7 @@ class MovieItem extends React.Component {
     function getAddress() {
       if (movie.backdrop_path || movie.poster_path) {
         return `https://image.tmdb.org/t/p/w500${movie.backdrop_path || movie.poster_path}`
-      } else { return '../img/camera.jpg' }
+      } else { return 'img/camera.jpg' }
     }
 
     return (
@@ -38,7 +38,7 @@ class MovieItem extends React.Component {
                     });
                     removeMovieFromWillWatch(movie)
                   }}>
-                  <img className="btn-img" src="../img/heartbreak.svg" alt="Delete from Favourite"></img>
+                  <img className="btn-img" src="img/heartbreak.svg" alt="Delete from Favourite"></img>
                 </button>) : (<button type='button'
                   className="btn btn-primary"
                   onClick={() => {
@@ -47,11 +47,11 @@ class MovieItem extends React.Component {
                     });
                     addMovieToWillWatch(movie)
                   }}>
-                  <img className="btn-img" src="../img/heart.svg" alt="Add from Favourite"></img>
+                  <img className="btn-img" src="img/heart.svg" alt="Add from Favourite"></img>
 
                 </button>)}
               <button type="button" className="btn btn-secondary" onClick={removeMovie.bind(null, movie)}>
-                <img className="btn-img" src="../img/bin.svg" alt="Add from Favourite"></img>
+                <img className="btn-img" src="img/bin.svg" alt="Add from Favourite"></img>
               </button>
             </div>
 
