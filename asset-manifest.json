@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Katherine8819/react-movie-rating.git/static/css/main.496588d6.chunk.css",
-    "main.js": "/Katherine8819/react-movie-rating.git/static/js/main.5f91840e.chunk.js",
-    "main.js.map": "/Katherine8819/react-movie-rating.git/static/js/main.5f91840e.chunk.js.map",
-    "runtime-main.js": "/Katherine8819/react-movie-rating.git/static/js/runtime-main.12b4b3ca.js",
-    "runtime-main.js.map": "/Katherine8819/react-movie-rating.git/static/js/runtime-main.12b4b3ca.js.map",
-    "static/js/2.ff9751a5.chunk.js": "/Katherine8819/react-movie-rating.git/static/js/2.ff9751a5.chunk.js",
-    "static/js/2.ff9751a5.chunk.js.map": "/Katherine8819/react-movie-rating.git/static/js/2.ff9751a5.chunk.js.map",
-    "index.html": "/Katherine8819/react-movie-rating.git/index.html",
-    "precache-manifest.cc906ee2c4351acae6ea59c2931a0d32.js": "/Katherine8819/react-movie-rating.git/precache-manifest.cc906ee2c4351acae6ea59c2931a0d32.js",
-    "service-worker.js": "/Katherine8819/react-movie-rating.git/service-worker.js",
-    "static/css/main.496588d6.chunk.css.map": "/Katherine8819/react-movie-rating.git/static/css/main.496588d6.chunk.css.map",
-    "static/js/2.ff9751a5.chunk.js.LICENSE.txt": "/Katherine8819/react-movie-rating.git/static/js/2.ff9751a5.chunk.js.LICENSE.txt"
+    "main.css": "/react-movie-rating/static/css/main.496588d6.chunk.css",
+    "main.js": "/react-movie-rating/static/js/main.5f91840e.chunk.js",
+    "main.js.map": "/react-movie-rating/static/js/main.5f91840e.chunk.js.map",
+    "runtime-main.js": "/react-movie-rating/static/js/runtime-main.0b82fe6e.js",
+    "runtime-main.js.map": "/react-movie-rating/static/js/runtime-main.0b82fe6e.js.map",
+    "static/js/2.ff9751a5.chunk.js": "/react-movie-rating/static/js/2.ff9751a5.chunk.js",
+    "static/js/2.ff9751a5.chunk.js.map": "/react-movie-rating/static/js/2.ff9751a5.chunk.js.map",
+    "index.html": "/react-movie-rating/index.html",
+    "precache-manifest.588af98579862118678265a4d9114216.js": "/react-movie-rating/precache-manifest.588af98579862118678265a4d9114216.js",
+    "service-worker.js": "/react-movie-rating/service-worker.js",
+    "static/css/main.496588d6.chunk.css.map": "/react-movie-rating/static/css/main.496588d6.chunk.css.map",
+    "static/js/2.ff9751a5.chunk.js.LICENSE.txt": "/react-movie-rating/static/js/2.ff9751a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.12b4b3ca.js",
+    "static/js/runtime-main.0b82fe6e.js",
     "static/js/2.ff9751a5.chunk.js",
     "static/css/main.496588d6.chunk.css",
     "static/js/main.5f91840e.chunk.js"
